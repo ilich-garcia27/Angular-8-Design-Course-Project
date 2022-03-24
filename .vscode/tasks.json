@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "angular-8-app/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - angular-8-app",
+			"detail": "ng build"
+		}
+	]
+}
