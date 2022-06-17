@@ -9,21 +9,14 @@ export class HomeComponent implements OnInit {
   clickCounter: number = 0;
   name: string = '';
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
   countClick() {
     this.clickCounter++;
   }
 
   setClasses() {
-    let myClasses = {
+    return {
       active: this.clickCounter > 4,
       notActive: this.clickCounter <= 4
-    }
-
-    return myClasses;
+    };
   }
 }
